@@ -1,9 +1,7 @@
 class Cacli < Formula
   desc "CLI for training Cloud Annotation object detection and classification models"
-  homepage "https://cloud.annotations.ai/"
-  url "https://github.com/cloud-annotations/training.git",
-      :tag      => "v1.2.2",
-      :revision => "6f2807b0e649becf3cea2f3b1384c5401fdeb26e"
+  homepage "https://cloud.annotations.ai"
+  url "https://github.com/cloud-annotations/training/archive/v1.2.3.tar.gz"
 
   depends_on "go" => :build
 
