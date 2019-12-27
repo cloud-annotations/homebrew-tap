@@ -12,9 +12,9 @@ class Cacli < Formula
     (buildpath/"src/github.com/cloud-annotations/training").install buildpath.children
     cd "src/github.com/cloud-annotations/training/cacli" do
       project = "github.com/cloud-annotations/training/cacli"
-      system "go", "build", "-ldflags",
-             "-s -w -X #{project}/version.Version=#{version}", "-a",
-             "-installsuffix", "cgo", "-o", bin/"cacli"
+      system "go", "build",
+             "-ldflags", "-s -w -X #{project}/version.Version=#{version}",
+             "-o", bin/"cacli"
       prefix.install_metafiles
     end
   end
