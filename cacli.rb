@@ -1,8 +1,8 @@
 class Cacli < Formula
   desc "Train machine learning models from Cloud Annotations"
   homepage "https://cloud.annotations.ai"
-  url "https://github.com/cloud-annotations/training/archive/v1.3.0.tar.gz"
-  sha256 "73477a2ff4286ceb702b25eea1a20e2bca294bf48be3881d239ad839c3dc98f8"
+  url "https://github.com/cloud-annotations/training/archive/v1.3.1.tar.gz"
+  sha256 "fae8c52e5d2824846641f5bd25697d48e9701d35127a2032d230fd3415b1006b"
 
   depends_on "go" => :build
 
